@@ -1,6 +1,7 @@
 #cancle newline
 print('hello \n hi',end='')
 print('\tworld ')
+# comments # and ''''''
 # 一、sting format
 #1.
 name='zhangshan'
