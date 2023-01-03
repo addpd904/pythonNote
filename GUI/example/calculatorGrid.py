@@ -12,6 +12,7 @@ butText=(('MC','M+','M-','MR'),
          (7,8,9,'+'),
          (4,5,6,'-'),
          (1,2,3,'='),
+
          (0,'.'))
 Entry(fr1).grid(row=0,column=0,pady=10)
 for rindex,r in enumerate(butText):
