@@ -27,6 +27,7 @@ res :tuple=cursor.fetchall()
 print(res)
 
 # 3. insert statement
+
 cursor.execute("insert into student1 values (1,'ls','en',100)")
 # commit modify
 con_data.commit()

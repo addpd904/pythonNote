@@ -15,7 +15,7 @@ class Application(Frame):
                          background='gray')
         self.texta1.pack()
         self.texta1.insert(1.0,'hello')
-        self.texta1.insert(2.5,'world,day day study')
+        self.texta1.insert(END,'world,day day study')
         # 1.insert text
         Button(self,text='insert text',command=self.inserttex).pack(side='left')
         # 2.get text

@@ -22,7 +22,7 @@ class MyMenu(Frame):
      # 一、normal menu
     def creatNormalMenu(self):
         # 1.create a main menu bar
-        main_menu_bar=Menu(self)
+        main_menu_bar=Menu(self.master)
 
         # 2.create submenu
         menu_file=Menu(main_menu_bar)
@@ -40,7 +40,8 @@ class MyMenu(Frame):
         main_menu_bar.add_cascade(label='help',menu=menu_help)
 
         # 4.add the main menu to root window
-        self.master['menu']=main_menu_bar
+        # self.master['menu']=main_menu_bar
+        self.master['menu'] = main_menu_bar
 
     # --------------------------------------------
     # 二、right click menu

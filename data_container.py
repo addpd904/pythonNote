@@ -55,7 +55,7 @@ len22=len(tup)
 tup[2][0]=88
 
 
-# str,only read ,don't allow to amend
+# 三、str,only read ,don't allow to amend
 str1='hello world'
 print(str1[-2])
 # find element
